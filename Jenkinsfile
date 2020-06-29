@@ -4,6 +4,7 @@ node {
   
   }
  stage('Compile-Package'){
-  sh 'mvn package '
+  echo 'Hello World'
+
  }
 }
