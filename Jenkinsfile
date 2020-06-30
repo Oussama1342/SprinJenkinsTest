@@ -1,7 +1,7 @@
 node {
  
  stage('Compile-Package'){
-    sh 'mvn package'
+    echo('Compile with success')
 
  }
  
