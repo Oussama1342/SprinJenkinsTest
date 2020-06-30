@@ -8,7 +8,5 @@ node {
  stage('Testing Stage'){
     sh 'mvn test'
  }
- stage('Deploy Stage'){
-    sh 'mvn deploy'
- }
+
 }
