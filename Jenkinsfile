@@ -1,7 +1,7 @@
 node {
  
  stage('Compile-Package'){
-    sh 'mvn clean compile'
+    sh 'mvn package'
 
  }
  
